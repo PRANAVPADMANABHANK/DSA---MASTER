@@ -1,14 +1,10 @@
-const array = [1,2,3,4,5]
+function palindrome(num){
 
-for(let nums of array){
-    console.log(nums)
+   const toString = num.toString()
+
+   return finalNum =  +toString.split('').reverse().join('')
 }
 
-array.map((value, index, array)=>{
-    console.log(value)
-})
 
 
-array.forEach((value, index)=>{
-    
-})   
+console.log( palindrome(123) )
