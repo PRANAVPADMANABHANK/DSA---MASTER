@@ -1,10 +1,9 @@
-function palindrome(num){
+const palindrome  = (num) =>{
 
-   const toString = num.toString()
+    let num1 = num.toString()
 
-   return finalNum =  +toString.split('').reverse().join('')
+    return +num1.split('').reverse().join('')
+
 }
 
-
-
-console.log( palindrome(123) )
+console.log(palindrome(123))
